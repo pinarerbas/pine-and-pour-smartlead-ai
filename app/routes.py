@@ -60,6 +60,7 @@ def yeni_lead():
 
     isim = data.get("isim", "").strip()
     telefon = data.get("telefon", "").strip()
+    email = data.get("email", "").strip()
     mesaj = data.get("mesaj", "").strip()
 
     if not isim or not telefon:
@@ -69,7 +70,12 @@ def yeni_lead():
         }), 400
 
     try:
-        lead_id = lead_ekle(isim, telefon, mesaj)
+        lead_id = lead_ekle(
+            isim,
+            telefon,
+            email,
+            mesaj
+        )
 
         return jsonify({
             "basari": True,
