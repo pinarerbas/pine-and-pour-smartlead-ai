@@ -16,7 +16,7 @@ class Config:
 
     Kullanıcıların ilgi alanlarına, bütçelerine, uygun oldukları
     zamanlara ve tercih ettikleri etkinlik türlerine göre Pine & Pour
-    etkinlikleri arasından uygun öneriler sun.
+    etkinlikleri arasından uygun öneriler sun, ancak bu bilgileri zaman içerisinde topla, hemen sorma.
 
     Gerekirse kullanıcıya kısa sorular sorarak tercihlerini netleştir.
 
